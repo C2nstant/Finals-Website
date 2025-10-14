@@ -13,6 +13,14 @@
     padding: 0;
 }
 
+#advancements {
+    background-image: url(images/gallery_47.png);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -258,6 +266,46 @@ header {
 }
 
 /*-------------------------------------------------------- Advancements CSS --------------------------------------------------------*/
+
+#advancements-div-title {
+    font-size: 1.4em;
+    text-align: center;
+    color: black;
+    background: rgba(255, 255, 255, 50%);
+    border: 5px solid white;
+    margin: 20px auto 0 auto;
+    padding: 5px 0;
+    width: 30vw;
+}
+
+.advancements-name.advancements-odd{
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    background: rgba(170, 207, 238, 90%);
+    border: 5px solid white;
+    margin: 20px auto;
+    padding: 5px;
+    width: 40vw;
+}
+
+.advancements-name.advancements-even{
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    background: rgba(135, 233, 88, 70%);
+    border: 5px solid white;
+    margin: 20px auto;
+    padding: 5px;
+    width: 40vw;
+}
+
+.advancements-img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border: 5px solid rgb(93, 0, 132);
+}
 
 /*-------------------------------------------------------- Gallery CSS --------------------------------------------------------*/
 
