@@ -29,6 +29,14 @@
     padding: 0;
 }
 
+#about {
+    background-image: url(images/gallery_49.png);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -358,3 +366,109 @@ header {
 }
 
 /*-------------------------------------------------------- About CSS --------------------------------------------------------*/
+
+#about {
+    color: white;
+}
+
+#about-div-title {
+    font-size: 1.8em;
+    text-align: center;
+    color: black;
+    background: rgba(255, 255, 255, 50%);
+    border: 5px solid white;
+    margin: 20px auto 0 auto;
+    padding: 5px 0;
+    width: 30vw;
+}
+
+#about-container {
+    margin: 0 auto;
+    width: 80vw;
+}
+
+.about-section {
+    font-size: 1.6em;
+    text-align: center;
+    color: black;
+    background: rgba(255, 255, 255, 65%);
+    border: 5px solid white;
+    margin: 8px;
+    padding: 10px;
+}
+
+.about-container-section {
+    margin-top: 20px;
+    background-size: cover;
+    border: 5px solid white;
+    width: 18vw;
+}
+
+#about-div-myworld .about-container-section {
+    background-image: url(images/statistics-bg_01.png);
+    
+}
+
+#about-div-playstyle .about-container-section {
+    background-image: url(images/statistics-bg_02.png);
+}
+
+#about-div-goals .about-container-section {
+    background-image: url(images/statistics-bg_03.png);
+}
+
+#about-div-contacts .about-container-section {
+    background-image: url(images/statistics-bg_04.png);
+}
+
+.about-description {
+    font-size: 1.2em;
+    text-align: left;
+    color: black;
+    background: rgba(255, 255, 255, 65%);
+    border: 5px solid white;
+    padding: 15px;
+    font-family: "Inria Sans";
+}
+
+#about-div-playstyle .about-description ul li {
+    margin-left: 30px;
+}
+
+#about-div-myworld {
+    background-size: cover;
+    width: 100%;
+}
+
+#about-div-playstyle {
+    background-size: cover;
+    width: 100%;
+}
+
+#about-div-goals {
+    background-size: cover;
+    width: 100%;
+}
+
+#about-div-contacts {
+    background-size: cover;
+    width: 100%;
+}
+
+.about-description p a{
+    text-decoration: none;
+}
+
+.about-description p a:link{
+    color: white;
+}
+
+.about-description p a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.about-description p a:visited{
+    color: purple;
+}
+
