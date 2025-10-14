@@ -44,6 +44,14 @@ header {
     color: pink;
 }
 
+.greyscale-85 {
+    filter: grayscale(85%);
+}
+
+.greyscale-100 {
+    filter: grayscale(100%);
+}
+
 #footer {
     margin: 80px 0 0 0;
     background-color: #737373;
@@ -93,6 +101,160 @@ header {
     margin: 20px auto 0 auto;
     padding: 5px 0;
     width: 30vw;
+}
+
+#index-div-quote {
+    font-size: 0.7em;
+    text-align: center;
+    color: black;
+    background: rgba(255, 255, 255, 50%);
+    border: 5px solid white;
+    margin: 20px auto 0 auto;
+    padding: 5px 0;
+    width: 90vw;
+}
+
+#index-div-statistics-title {
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    background: rgba(255, 255, 255, 50%);
+    border: 5px solid white;
+    margin: 20px auto 0 auto;
+    padding: 5px 0;
+    width: 30vw;
+}
+
+#index-container-statistics {
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 90vw;
+}
+
+.statistics-title {
+    font-size: 1em;
+    text-align: center;
+    color: black;
+    background: rgba(255, 255, 255, 65%);
+    border: 5px solid white;
+    margin: 8px
+}
+
+.statistics-stats {
+    font-size: 1em;
+    text-align: left;
+    color: black;
+    background: rgba(255, 255, 255, 65%);
+    border: 5px solid white;
+    margin: 8px;
+    padding: 5px;
+    font-family: "Inria Sans";
+}
+
+#statistics-survival {
+    background-image: url(images/statistics-bg_01.png);
+    background-size: cover;
+    border: 5px solid white;
+    width: 21vw;
+}
+
+#statistics-exploration {
+    background-image: url(images/statistics-bg_02.png);
+    background-size: cover;
+    border: 5px solid white;
+    width: 21vw;
+}
+
+#statistics-combat {
+    background-image: url(images/statistics-bg_03.png);
+    background-size: cover;
+    border: 5px solid white;
+    width: 21vw;
+}
+
+#statistics-resource {
+    background-image: url(images/statistics-bg_04.png);
+    background-size: cover;
+    border: 5px solid white;
+    width: 21vw;
+}
+
+#index-div-timeline-title {
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+    background: rgba(255, 255, 255, 50%);
+    border: 5px solid white;
+    margin: 20px auto 0 auto;
+    padding: 5px 0;
+    width: 30vw;
+}
+
+#index-container-timeline {
+    max-width: 95%;
+    margin: 20px auto 0 auto;
+    display: flex;
+}
+
+.index-container-figure {
+    position: relative;
+    max-width: 300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.index-container-figure img {
+    width: 100%;
+    height: auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+#figure_01 {
+    border: 5px solid gray;
+}
+
+#figure_02 {
+    border: 5px solid #FF7C24;
+}
+
+#figure_03 {
+    border: 5px solid rgb(93, 0, 132);
+}
+
+#figure_04 {
+    border: 5px solid gold;
+}
+
+.figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+#index-container-checkbox {
+    max-width: 95%;
+    margin: 20px auto 0 auto;
+    display: flex;
+}
+
+.checkbox {
+    max-width: 5rem;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 /*-------------------------------------------------------- Advancements CSS --------------------------------------------------------*/
