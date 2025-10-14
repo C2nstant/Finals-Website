@@ -21,6 +21,14 @@
     padding: 0;
 }
 
+#gallery {
+    background-image: url(images/gallery_48.png);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -308,5 +316,45 @@ header {
 }
 
 /*-------------------------------------------------------- Gallery CSS --------------------------------------------------------*/
+
+#gallery-div-title {
+    font-size: 1.8em;
+    text-align: center;
+    color: black;
+    background: rgba(255, 255, 255, 50%);
+    border: 5px solid white;
+    margin: 20px auto 0 auto;
+    padding: 5px 0;
+    width: 30vw;
+}
+
+.gallery-name.gallery-odd{
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    background: rgba(255, 204, 12, 80%);
+    border: 5px solid white;
+    margin: 20px auto;
+    padding: 5px;
+    width: 40vw;
+}
+
+.gallery-name.gallery-even{
+    font-size: 2em;
+    text-align: center;
+    color: black;
+    background: rgba(163, 73, 164, 70%);
+    border: 5px solid white;
+    margin: 20px auto;
+    padding: 5px;
+    width: 40vw;
+}
+
+.gallery-img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    border: 5px solid rgb(93, 0, 132);
+}
 
 /*-------------------------------------------------------- About CSS --------------------------------------------------------*/
