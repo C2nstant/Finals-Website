@@ -483,6 +483,7 @@ header {
 /*-------------------------------------------------------- Tablet Viewport CSS --------------------------------------------------------*/
 
 @media (max-width: 1024px) {
+     /* Website Wide and Index */
 
     #navbar a {
         color: white;
@@ -500,77 +501,30 @@ header {
 
     #index-div-title {
         font-size: 1.5em;
-        text-align: center;
-        color: black;
-        background: rgba(255, 255, 255, 50%);
-        border: 5px solid white;
-        margin: 20px auto 0 auto;
-        padding: 5px 0;
         width: 30vw;
     }
 
     #index-div-quote {
         font-size: 0.8em;
-        text-align: center;
-        color: black;
-        background: rgba(255, 255, 255, 50%);
-        border: 5px solid white;
-        margin: 20px auto 0 auto;
-        padding: 5px 0;
         width: 90vw;
     }
 
     #index-div-timeline-title {
         font-size: 1.1em;
-        text-align: center;
-        color: black;
-        background: rgba(255, 255, 255, 50%);
-        border: 5px solid white;
-        margin: 20px auto 0 auto;
-        padding: 5px 0;
         width: 30vw;
     }
 
-    #index-container-timeline {
-        max-width: 95%;
-        margin: 20px auto 0 auto;
-        display: flex;
-    }
-
     .index-container-figure {
-        position: relative;
         max-width: 180px;
-        margin: 0 auto;
-        overflow: hidden;
     }
 
     .figcaption {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
-        width: 100%;
         padding: 5px;
-        text-align: center;
-        font-family: Verdana, Arial, sans-serif;
         font-size: 1.1em;
-        font-weight: bold;
-        box-sizing: border-box;
-    }
-
-    #index-container-checkbox {
-        max-width: 95%;
-        margin: 20px auto 0 auto;
-        display: flex;
     }
 
     .checkbox {
         max-width: 4rem;
-        position: relative;
-        margin: 0 auto;
-        overflow: hidden;
     }
 
     #footer {
@@ -597,11 +551,63 @@ header {
     #footer-right img {
         width: 10vw;
     }
+
+    /* Advancement and Gallery */
+
+    #advancements-div-title {
+        width: 45vw;
+    }
+
+    .advancements-name.advancements-odd{
+        width: 50vw;
+    }
+
+    .advancements-name.advancements-even{
+        width: 50vw;
+    }
+
+    .advancements-img {
+        width: 60%;
+    }
+
+    #gallery-div-title {
+        width: 45vw;
+    }
+
+    .gallery-name.gallery-odd{
+        width: 50vw;
+    }
+
+    .gallery-name.gallery-even{
+        width: 50vw;
+    }
+
+    .gallery-img {
+        width: 60%;
+    }
+
+    /* About */
+
+    #about-div-title {
+        width: 50vw;
+    }
+
+    #about-container {
+        width: 80vw;
+    }
+
+    .about-container-section {
+        margin: 20px auto 0 auto;
+        width: 25vw;
+    }
+
 }
 
 /*-------------------------------------------------------- Mobile Viewport CSS --------------------------------------------------------*/
 
 @media (max-width: 768px) {
+
+    /* Website Wide and Index */
 
     header {
         flex-direction: column;
@@ -635,40 +641,20 @@ header {
 
     #index-div-title {
         font-size: 1.5em;
-        text-align: center;
-        color: black;
-        background: rgba(255, 255, 255, 50%);
-        border: 5px solid white;
-        margin: 20px auto 0 auto;
-        padding: 5px 0;
         width: 90vw;
     }
 
     #index-div-quote {
         font-size: 0.7em;
-        text-align: center;
-        color: black;
-        background: rgba(255, 255, 255, 50%);
-        border: 5px solid white;
-        margin: 20px auto 0 auto;
-        padding: 10px;
         width: 90vw;
     }
 
     #index-div-timeline-title {
         font-size: 1.2em;
-        text-align: center;
-        color: black;
-        background: rgba(255, 255, 255, 50%);
-        border: 5px solid white;
-        margin: 20px auto 0 auto;
-        padding: 5px 0;
         width: 90vw;
     }
 
     #index-container-timeline {
-        max-width: 95%;
-        margin: 20px auto 0 auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -676,26 +662,11 @@ header {
     }
 
     .index-container-figure {
-        position: relative;
         max-width: 80%;
-        margin: 0 auto;
-        overflow: hidden;
     }
 
     .figcaption {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background: rgba(0, 0, 0, 0.5);
-        color: white;
-        width: 100%;
-        padding: 5px;
-        text-align: center;
-        font-family: Verdana, Arial, sans-serif;
         font-size: 1.5em;
-        font-weight: bold;
-        box-sizing: border-box;
     }
 
     #index-container-checkbox {
@@ -709,14 +680,10 @@ header {
 
     .checkbox {
         max-width: 4rem;
-        position: relative;
-        margin: 0 auto;
-        overflow: hidden;
     }
 
     #footer {
-        margin: 4dvh 0 0 0;
-        background-color: #737373;
+        margin: 4vh 0 0 0;
         flex-direction: column;
         align-items: center;
     }
@@ -738,6 +705,56 @@ header {
     #footer-right img {
         width: 60vw;
     }
+
+    /* Advancement and Gallery */
+
+    #advancements-div-title {
+        width: 80vw;
+    }
+
+    .advancements-name.advancements-odd{
+        width: 90vw;
+    }
+
+    .advancements-name.advancements-even{
+        width: 90vw;
+    }
+
+    .advancements-img {
+        width: 90%;
+    }
+
+    #gallery-div-title {
+        width: 80vw;
+    }
+
+    .gallery-name.gallery-odd{
+        width: 90vw;
+    }
+
+    .gallery-name.gallery-even{
+        width: 90vw;
+    }
+
+    .gallery-img {
+        width: 90%;
+    }
+
+    /* About */
+
+    #about-div-title {
+        width: 40vw;
+    }
+
+    #about-container {
+        width: 90vw;
+    }
+
+    .about-container-section {
+        margin: 20px auto 0 auto;
+        width: 70vw;
+    }
+    
 
 }
 
