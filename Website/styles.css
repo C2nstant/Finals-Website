@@ -124,7 +124,7 @@ header {
     border: 5px solid white;
     margin: 20px auto 0 auto;
     padding: 5px 0;
-    width: 30vw;
+    width: 40vw;
 }
 
 #index-div-quote {
@@ -284,14 +284,14 @@ header {
 /*-------------------------------------------------------- Advancements CSS --------------------------------------------------------*/
 
 #advancements-div-title {
-    font-size: 1.4em;
+    font-size: 1.8em;
     text-align: center;
     color: black;
     background: rgba(255, 255, 255, 50%);
     border: 5px solid white;
     margin: 20px auto 0 auto;
     padding: 5px 0;
-    width: 30vw;
+    width: 40vw;
 }
 
 .advancements-name.advancements-odd{
@@ -333,7 +333,7 @@ header {
     border: 5px solid white;
     margin: 20px auto 0 auto;
     padding: 5px 0;
-    width: 30vw;
+    width: 40vw;
 }
 
 .gallery-name.gallery-odd{
@@ -761,5 +761,201 @@ header {
 /*-------------------------------------------------------- Print CSS --------------------------------------------------------*/
 
 @media print {
+    
+    * {
+        background: none;
+        background-image: none;
+        background-color: none;
+        color: black;
+        margin: 0;
+        padding: 0;
+        border: none;
+        font-size: 0.99em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 
+    /* Index and Global */
+
+    #logo a img{
+        width: 20vw;
+    }
+
+    #navbar ul{
+        margin-right: 10px;
+    }
+
+    #navbar ul a{
+        font-size: 1em;
+    }
+
+    #index-div-title {
+        margin: 0 auto;
+        padding: 0;
+        font-size: 1em;
+    }
+
+    #index-div-quote {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #index-div-statistics-title {
+        display: contents;
+        font-size: 1em;
+    }
+
+    #index-container-statistics {
+        display: contents;
+    }
+
+    #index-div-statistics-title {
+        margin: 0 auto;
+        padding: 0;
+        width: 30vw;
+    }
+
+    #index-container-statistics {
+        margin: 0 auto;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        width: 100vw;
+    }
+
+    .statistics-title {
+        padding: 0;
+        margin: 0;
+    }
+
+    .statistics-stats {
+        padding: 0;
+        margin: 0;
+        font-size: small;
+    }
+
+    #statistics-survival {
+        width: 40vw;
+    }
+
+    #statistics-exploration {
+        width: 40vw;
+    }
+
+    #statistics-combat {
+        width: 40vw;
+    }
+
+    #statistics-resource {
+        width: 40vw;
+    }
+
+    .index-container-figure {
+        overflow: visible;
+    }
+
+    #index-div-timeline-title {
+        font-size: 1em;
+        border: 0;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .figcaption {
+        bottom: -30px;
+        left: 0;
+        right: 0;
+    }
+
+    #index-container-checkbox {
+        margin-top: 40px;
+    }
+
+    /* Advancements and Gallery */
+
+    #advancements-div-title {
+        margin: 0 auto;
+        padding: 0;
+        border: 0;
+        font-size: 1em;
+    }
+
+    .advancements-name.advancements-odd{
+        margin: 0 auto;
+        padding: 0;
+        border: 0;
+        font-size: 1em;
+    }
+
+    .advancements-name.advancements-even{
+        margin: 0 auto;
+        padding: 0;
+        border: 0;
+        font-size: 1em;
+    }
+
+    #advancements .advancements-container {
+        display: grid !important;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        justify-items: center;
+        align-items: start;
+    }
+
+    .advancements-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .advancements-name {
+        font-size: 0.9em;
+        margin: 5px 0;
+    }
+
+    .advancements-img {
+        width: 100%;
+        max-width: 150px;
+        height: auto;
+        border: none;
+        margin: 0 auto;
+        padding-bottom: 5px;
+    }
+
+    #gallery-div-title {
+        width: 80vw;
+    }
+
+    .gallery-name.gallery-odd{
+        width: 90vw;
+    }
+
+    .gallery-name.gallery-even{
+        width: 90vw;
+    }
+
+    .gallery-img {
+        width: 90%;
+    }
+    
+}
+
+/*------------------------------------------ INTERACTIVITY CSS ----------------------------------------------------*/
+
+@keyframes creeperPulse {
+  0% { transform: scale(1); filter: brightness(1); }
+  25% { transform: scale(1.05); filter: brightness(1.2); }
+  50% { transform: scale(1.1); filter: brightness(1.4); }
+  75% { transform: scale(1.05); filter: brightness(1.2); }
+  100% { transform: scale(1); filter: brightness(1); }
+}
+
+.creeper-animate {
+  animation: creeperPulse 1s ease-in-out;
+}
+
+#creeper {
+    cursor: pointer;
 }
