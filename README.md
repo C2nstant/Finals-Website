@@ -1,6 +1,8 @@
 # Finals-Website
-Website Project for IntroWeb Finals Submission
-Title: Minecraft Hardcore Journal
+Website Project for IntroWeb Finals Submission  
+  
+Title: Minecraft Hardcore Journal  
+  
 Includes:
 - 4 Webpages
 - Responsive Web Design
